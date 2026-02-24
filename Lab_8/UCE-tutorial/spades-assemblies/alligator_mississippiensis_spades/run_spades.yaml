@@ -1,0 +1,198 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_nbh11o4x
+  output_files:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/corrected/corrected.yaml
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades
+  - --max_threads
+  - '10'
+  - --output_dir
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K21/configs/config.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K21/configs/mda_mode.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K21/configs/careful_mda_mode.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K33/configs/config.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K33/configs/mda_mode.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K33/configs/careful_mda_mode.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/configs/config.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/configs/mda_mode.info
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/configs/careful_mda_mode.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k55
+- STAGE: Copy files
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/copy_files.py
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/before_rr.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/before_rr.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/assembly_graph_after_simplification.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/assembly_graph_after_simplification.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/final_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/first_pe_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/first_pe_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/strain_graph.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/strain_graph.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/scaffolds.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/scaffolds.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/scaffolds.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/scaffolds.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/assembly_graph_with_scaffolds.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/assembly_graph_with_scaffolds.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/assembly_graph.fastg
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/assembly_graph.fastg
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/K55/final_contigs.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_i0wecmg6
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: mc_start
+- STAGE: Mismatch correction contigs
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/contigs.fasta
+  - --assembled
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/misc/assembled_contigs.fasta
+  - --assembly_type
+  - contigs
+  - --output_dir
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades
+  - --bin_home
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/bin
+  config_dir: mismatch_corrector/contigs
+  del_after:
+  - mismatch_corrector/contigs/tmp
+  - tmp/corrector_8e_wirqg
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: mc_contigs
+- STAGE: Mismatch correction scaffolds
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/scaffolds.fasta
+  - --assembled
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/misc/assembled_scaffolds.fasta
+  - --assembly_type
+  - scaffolds
+  - --output_dir
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades
+  - --bin_home
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/bin
+  config_dir: mismatch_corrector/scaffolds
+  del_after:
+  - mismatch_corrector/scaffolds/tmp
+  - tmp/corrector_sd_9wxcs
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: mc_scaffolds
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: mc_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/scaffolds.fasta
+  - --misc_dir
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

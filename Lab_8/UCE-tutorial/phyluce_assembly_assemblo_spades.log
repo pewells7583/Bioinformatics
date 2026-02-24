@@ -1,0 +1,55 @@
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - =========== Starting phyluce_assembly_assemblo_spades ===========
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Version: 1.7.3
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Commit: None
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --cores: 10
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --dir: None
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --log_path: None
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --memory: 8
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --no_clean: False
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:05:35,233 - phyluce_assembly_assemblo_spades - INFO - Argument --subfolder: 
+2026-02-24 16:05:35,234 - phyluce_assembly_assemblo_spades - INFO - Argument --verbosity: INFO
+2026-02-24 16:05:35,234 - phyluce_assembly_assemblo_spades - INFO - Getting input filenames and creating output directories
+2026-02-24 16:23:34,991 - phyluce_assembly_assemblo_spades - INFO - =========== Starting phyluce_assembly_assemblo_spades ===========
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Version: 1.7.3
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Commit: None
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --cores: 10
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --dir: None
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --log_path: None
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --memory: 8
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --no_clean: False
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --subfolder: 
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Argument --verbosity: INFO
+2026-02-24 16:23:34,992 - phyluce_assembly_assemblo_spades - INFO - Getting input filenames and creating output directories
+2026-02-24 16:23:34,993 - phyluce_assembly_assemblo_spades - INFO - ------------- Processing alligator_mississippiensis -------------
+2026-02-24 16:23:34,993 - phyluce_assembly_assemblo_spades - INFO - Finding fastq/fasta files
+2026-02-24 16:23:34,996 - phyluce_assembly_assemblo_spades - INFO - File type is fastq
+2026-02-24 16:23:34,996 - phyluce_assembly_assemblo_spades - INFO - Running SPAdes for PE data
+2026-02-24 16:23:36,439 - phyluce_assembly_assemblo_spades - INFO - Removing extraneous assembly files
+2026-02-24 16:23:36,441 - phyluce_assembly_assemblo_spades - CRITICAL - Expected assembly files were not found in output.
+2026-02-24 16:23:36,441 - phyluce_assembly_assemblo_spades - INFO - Symlinking assembled contigs into /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/contigs
+2026-02-24 16:23:36,441 - phyluce_assembly_assemblo_spades - INFO - ----------------- Processing anolis_carolinensis ----------------
+2026-02-24 16:23:36,441 - phyluce_assembly_assemblo_spades - INFO - Finding fastq/fasta files
+2026-02-24 16:23:36,443 - phyluce_assembly_assemblo_spades - INFO - File type is fastq
+2026-02-24 16:23:36,443 - phyluce_assembly_assemblo_spades - INFO - Running SPAdes for PE data
+2026-02-24 16:23:37,249 - phyluce_assembly_assemblo_spades - INFO - Removing extraneous assembly files
+2026-02-24 16:23:37,254 - phyluce_assembly_assemblo_spades - CRITICAL - Expected assembly files were not found in output.
+2026-02-24 16:23:37,254 - phyluce_assembly_assemblo_spades - INFO - Symlinking assembled contigs into /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/contigs
+2026-02-24 16:23:37,254 - phyluce_assembly_assemblo_spades - INFO - -------------------- Processing gallus_gallus -------------------
+2026-02-24 16:23:37,254 - phyluce_assembly_assemblo_spades - INFO - Finding fastq/fasta files
+2026-02-24 16:23:37,256 - phyluce_assembly_assemblo_spades - INFO - File type is fastq
+2026-02-24 16:23:37,256 - phyluce_assembly_assemblo_spades - INFO - Running SPAdes for PE data
+2026-02-24 16:23:38,034 - phyluce_assembly_assemblo_spades - INFO - Removing extraneous assembly files
+2026-02-24 16:23:38,035 - phyluce_assembly_assemblo_spades - CRITICAL - Expected assembly files were not found in output.
+2026-02-24 16:23:38,035 - phyluce_assembly_assemblo_spades - INFO - Symlinking assembled contigs into /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/contigs
+2026-02-24 16:23:38,035 - phyluce_assembly_assemblo_spades - INFO - -------------------- Processing mus_musculus --------------------
+2026-02-24 16:23:38,035 - phyluce_assembly_assemblo_spades - INFO - Finding fastq/fasta files
+2026-02-24 16:23:38,036 - phyluce_assembly_assemblo_spades - INFO - File type is fastq
+2026-02-24 16:23:38,036 - phyluce_assembly_assemblo_spades - INFO - Running SPAdes for PE data
+2026-02-24 16:23:38,867 - phyluce_assembly_assemblo_spades - INFO - Removing extraneous assembly files
+2026-02-24 16:23:38,867 - phyluce_assembly_assemblo_spades - CRITICAL - Expected assembly files were not found in output.
+2026-02-24 16:23:38,867 - phyluce_assembly_assemblo_spades - INFO - Symlinking assembled contigs into /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/contigs
+2026-02-24 16:23:38,867 - phyluce_assembly_assemblo_spades - INFO - =========== Completed phyluce_assembly_assemblo_spades ==========

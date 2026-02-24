@@ -1,0 +1,17 @@
+2026-02-24 16:00:21,536 - illumiprocessor - INFO - ==================== Starting illumiprocessor ===================
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Version: 2.10
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --config: illumiprocessor.conf
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --cores: 10
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --input: /Users/peytonwells/Desktop/UCE-tutorial/raw-fastq
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --log_path: None
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --min_len: 40
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --no_merge: False
+2026-02-24 16:00:21,537 - illumiprocessor - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --phred: phred33
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --r1_pattern: None
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --r2_pattern: None
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --se: False
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --trimmomatic: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/trimmomatic
+2026-02-24 16:00:21,538 - illumiprocessor - INFO - Argument --verbosity: INFO
+2026-02-24 16:00:24,123 - illumiprocessor - INFO - Trimming samples with Trimmomatic
+2026-02-24 16:00:31,937 - illumiprocessor - INFO - =================== Completed illumiprocessor ===================

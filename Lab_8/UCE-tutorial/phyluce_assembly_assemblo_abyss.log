@@ -1,0 +1,93 @@
+2026-02-24 16:07:51,188 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:07:51,188 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:07:51,189 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:08:43,977 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:08:43,977 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:08:43,978 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:16:43,315 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:16:43,316 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:16:43,316 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:16:43,316 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:16:43,317 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:18:15,347 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:18:15,347 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:18:15,347 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:18:15,348 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:18:15,350 - phyluce_assembly_assemblo_abyss - INFO - ------------- Processing alligator_mississippiensis -------------
+2026-02-24 16:18:15,350 - phyluce_assembly_assemblo_abyss - INFO - Finding fastq/fasta files
+2026-02-24 16:18:15,352 - phyluce_assembly_assemblo_abyss - INFO - File type is fastq
+2026-02-24 16:18:15,353 - phyluce_assembly_assemblo_abyss - INFO - Running abyss-pe against data
+2026-02-24 16:20:26,653 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:20:26,653 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:20:26,653 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:20:26,653 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:20:26,654 - phyluce_assembly_assemblo_abyss - INFO - ------------- Processing alligator_mississippiensis -------------
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - ============ Starting phyluce_assembly_assemblo_abyss ===========
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Version: 1.7.3
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Commit: None
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --abyss_se: False
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --clean: False
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --config: /Users/peytonwells/Desktop/UCE-tutorial/assembly.conf
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --cores: 10
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --dir: None
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --kmer: 31
+2026-02-24 16:21:49,317 - phyluce_assembly_assemblo_abyss - INFO - Argument --log_path: None
+2026-02-24 16:21:49,318 - phyluce_assembly_assemblo_abyss - INFO - Argument --output: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies
+2026-02-24 16:21:49,318 - phyluce_assembly_assemblo_abyss - INFO - Argument --subfolder: 
+2026-02-24 16:21:49,318 - phyluce_assembly_assemblo_abyss - INFO - Argument --verbosity: INFO
+2026-02-24 16:21:49,318 - phyluce_assembly_assemblo_abyss - INFO - Getting input filenames and creating output directories
+2026-02-24 16:21:49,323 - phyluce_assembly_assemblo_abyss - INFO - ------------- Processing alligator_mississippiensis -------------
+2026-02-24 16:21:49,323 - phyluce_assembly_assemblo_abyss - INFO - Finding fastq/fasta files
+2026-02-24 16:21:49,328 - phyluce_assembly_assemblo_abyss - INFO - File type is fastq
+2026-02-24 16:21:49,328 - phyluce_assembly_assemblo_abyss - INFO - Running abyss-pe against data

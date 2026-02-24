@@ -1,0 +1,8 @@
+- "left reads":
+  - "/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ1.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ2.fastq.gz"
+  "single reads":
+  - "/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ-singleton.fastq.gz"
+  "type": "paired-end"

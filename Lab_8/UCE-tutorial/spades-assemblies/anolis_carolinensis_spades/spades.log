@@ -1,0 +1,72 @@
+Command line: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades.py	--careful	--sc	--memory	8	--threads	10	--cov-cutoff	5	--pe1-1	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ1.fastq.gz	--pe1-2	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ2.fastq.gz	-o	/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades	--pe1-s	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ-singleton.fastq.gz	
+
+System information:
+  SPAdes version: 3.14.1
+  Python version: 3.6.15
+  OS: Darwin-24.6.0-x86_64-i386-64bit
+
+Output dir: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Single-cell mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ1.fastq.gz']
+      right reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ2.fastq.gz']
+      interlaced reads: not specified
+      single reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ-singleton.fastq.gz']
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: [21, 33, 55]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned ON and threshold is 5.000000
+Other parameters:
+  Dir for temp files: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/tmp
+  Threads: 10
+  Memory limit (in Gb): 8
+
+
+======= SPAdes pipeline started. Log can be found here: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/spades.log
+
+/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ1.fastq.gz: max reads length: 100
+/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ2.fastq.gz: max reads length: 100
+/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/anolis_carolinensis/split-adapter-quality-trimmed/anolis_carolinensis-READ-singleton.fastq.gz: max reads length: 100
+
+Reads length: 100
+
+
+===== Before start started. 
+
+
+===== Read error correction started. 
+
+
+===== Read error correction started. 
+
+
+== Running: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-hammer /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/corrected/configs/config.info
+
+  0:00:00.000     4M / 7M    INFO    General                 (main.cpp                  :  75)   Starting BayesHammer, built from refs/heads/pull/26595, git revision 0528d4926432d0e906e11433b82de77fa6fd653a
+  0:00:00.000     4M / 7M    INFO    General                 (main.cpp                  :  76)   Loading config from /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/corrected/configs/config.info
+  0:00:00.002     4M / 8M    INFO    General                 (main.cpp                  :  78)   Maximum # of threads to use (adjusted due to OMP capabilities): 10
+  0:00:00.002     4M / 8M    ERROR   General                 (memory_limit.cpp          :  48)   setrlimit(2) call failed, errno = 22
+
+
+== Error ==  system call for: "['/opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-hammer', '/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/corrected/configs/config.info']" finished abnormally, OS return value: 255
+
+In case you have troubles running SPAdes, you can write to spades.support@cab.spbu.ru
+or report an issue on our GitHub repository github.com/ablab/spades
+Please provide us with params.txt and spades.log files from the output directory.
+
+SPAdes log can be found here: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/anolis_carolinensis_spades/spades.log
+
+Thank you for using SPAdes!

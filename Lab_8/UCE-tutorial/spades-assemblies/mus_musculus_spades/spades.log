@@ -1,0 +1,68 @@
+Command line: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades.py	-1	/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ1.fastq.gz	-2	/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ2.fastq.gz	-s	/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ-singleton.fastq.gz	-o	/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades	--only-assembler	-t	10	
+
+System information:
+  SPAdes version: 3.14.1
+  Python version: 3.6.15
+  OS: Darwin-24.6.0-x86_64-i386-64bit
+
+Output dir: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ1.fastq.gz']
+      right reads: ['/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ2.fastq.gz']
+      interlaced reads: not specified
+      single reads: ['/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ-singleton.fastq.gz']
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/tmp
+  Threads: 10
+  Memory limit (in Gb): 250
+
+
+======= SPAdes pipeline started. Log can be found here: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/spades.log
+
+/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ1.fastq.gz: max reads length: 100
+/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ2.fastq.gz: max reads length: 100
+/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ-singleton.fastq.gz: max reads length: 100
+
+Reads length: 100
+
+
+===== Before start started. 
+
+
+===== Assembling started. 
+
+
+===== K21 started. 
+
+
+== Running: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K21/configs/config.info
+
+WARNING: Try to use logger before create one. Level=INFO. Message=Additional contigs is tmp_contigs.fasta
+  0:00:00.000     4M / 9M    INFO    General                 (main.cpp                  :  75)   Loaded config from /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K21/configs/config.info
+  0:00:00.000     4M / 9M    ERROR   General                 (memory_limit.cpp          :  48)   setrlimit(2) call failed, errno = 22
+
+
+== Error ==  system call for: "['/opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core', '/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K21/configs/config.info']" finished abnormally, OS return value: 255
+
+In case you have troubles running SPAdes, you can write to spades.support@cab.spbu.ru
+or report an issue on our GitHub repository github.com/ablab/spades
+Please provide us with params.txt and spades.log files from the output directory.
+
+SPAdes log can be found here: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/spades.log
+
+Thank you for using SPAdes!

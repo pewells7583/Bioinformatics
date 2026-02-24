@@ -1,0 +1,7 @@
+"bwa": "/opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-bwa"
+"dataset": "/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "10"
+"output_dir": "/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/mismatch_corrector/scaffolds"
+"strategy": "mapped_squared"
+"work_dir": "/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/tmp/corrector_sd_9wxcs"

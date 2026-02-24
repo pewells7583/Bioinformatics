@@ -1,0 +1,7 @@
+TrimmomaticPE: Started with arguments:
+ -phred33 /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/raw-reads/mus_musculus-READ1.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/raw-reads/mus_musculus-READ2.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ1.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ1-single.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ2.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/split-adapter-quality-trimmed/mus_musculus-READ2-single.fastq.gz ILLUMINACLIP:/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/mus_musculus/adapters.fasta:2:30:10 LEADING:5 TRAILING:15 SLIDINGWINDOW:4:15 MINLEN:40
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCACCTACAACGGCATCTCGTATGCCGTCTTCTGCTTG'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 50000 Both Surviving: 41184 (82.37%) Forward Only Surviving: 6637 (13.27%) Reverse Only Surviving: 836 (1.67%) Dropped: 1343 (2.69%)
+TrimmomaticPE: Completed successfully

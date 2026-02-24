@@ -1,0 +1,7 @@
+TrimmomaticPE: Started with arguments:
+ -phred33 /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/raw-reads/gallus_gallus-READ1.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/raw-reads/gallus_gallus-READ2.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ1.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ1-single.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ2.fastq.gz /Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/split-adapter-quality-trimmed/gallus_gallus-READ2-single.fastq.gz ILLUMINACLIP:/Users/peytonwells/Desktop/UCE-tutorial/clean-fastq/gallus_gallus/adapters.fasta:2:30:10 LEADING:5 TRAILING:15 SLIDINGWINDOW:4:15 MINLEN:40
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCACTTCTCCTTCAATCTCGTATGCCGTCTTCTGCTTG'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 50000 Both Surviving: 49610 (99.22%) Forward Only Surviving: 181 (0.36%) Reverse Only Surviving: 43 (0.09%) Dropped: 166 (0.33%)
+TrimmomaticPE: Completed successfully

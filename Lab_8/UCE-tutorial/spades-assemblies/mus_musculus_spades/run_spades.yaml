@@ -1,0 +1,105 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after:
+  - tmp/hammer_mxpgbapl
+  - .bin_reads
+  - tmp/spades_qcb5sk1k
+  - mismatch_corrector/contigs/tmp
+  - tmp/corrector_tq0mx5j_
+  - mismatch_corrector/scaffolds/tmp
+  - tmp/corrector_cjt0dh4b
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k21
+- STAGE: K33
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K33/configs/config.info
+  config_dir: K33
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k33
+- STAGE: K55
+  args:
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/configs/config.info
+  config_dir: K55
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades-core
+  short_name: k55
+- STAGE: Copy files
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/copy_files.py
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/before_rr.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/before_rr.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/assembly_graph_after_simplification.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/assembly_graph_after_simplification.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/final_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/first_pe_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/first_pe_contigs.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/strain_graph.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/strain_graph.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/scaffolds.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/scaffolds.fasta
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/scaffolds.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/scaffolds.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/assembly_graph_with_scaffolds.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/assembly_graph_with_scaffolds.gfa
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/assembly_graph.fastg
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/assembly_graph.fastg
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/K55/final_contigs.paths
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_c4r4kgt2
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /opt/miniconda3/envs/phyluce-1.7.3-x86/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/scaffolds.fasta
+  - --misc_dir
+  - /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/mus_musculus_spades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  output_files: []
+  path: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/python
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  output_files: []
+  path: 'true'
+  short_name: terminate

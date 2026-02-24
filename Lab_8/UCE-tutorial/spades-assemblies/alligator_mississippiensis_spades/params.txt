@@ -1,0 +1,36 @@
+Command line: /opt/miniconda3/envs/phyluce-1.7.3-x86/bin/spades.py	--careful	--sc	--memory	8	--threads	10	--cov-cutoff	5	--pe1-1	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ1.fastq.gz	--pe1-2	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ2.fastq.gz	-o	/Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades	--pe1-s	/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ-singleton.fastq.gz	
+
+System information:
+  SPAdes version: 3.14.1
+  Python version: 3.6.15
+  OS: Darwin-24.6.0-x86_64-i386-64bit
+
+Output dir: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Single-cell mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ1.fastq.gz']
+      right reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ2.fastq.gz']
+      interlaced reads: not specified
+      single reads: ['/Users/peytonwells/desktop/UCE-tutorial/clean-fastq/alligator_mississippiensis/split-adapter-quality-trimmed/alligator_mississippiensis-READ-singleton.fastq.gz']
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: [21, 33, 55]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned ON and threshold is 5.000000
+Other parameters:
+  Dir for temp files: /Users/peytonwells/Desktop/UCE-tutorial/spades-assemblies/alligator_mississippiensis_spades/tmp
+  Threads: 10
+  Memory limit (in Gb): 8
+
