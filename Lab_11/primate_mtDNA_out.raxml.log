@@ -1,0 +1,38 @@
+
+RAxML-NG v. 2.0.0-dev released on 11.03.2026 by The Exelixis Lab.
+Developed by: Oleksiy M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth,
+              Julia Haag, Anastasis Togkousidis, Julius Wiegert, Christoph Stelz.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1 Max, 10 cores, 32 GB RAM
+
+RAxML-NG was called at 18-Mar-2026 12:16:55 as follows:
+
+raxml-ng --msa primate-mtDNA.nex --model GTR+G --prefix primate_mtDNA_out
+
+Analysis options:
+  run mode: ML tree search (adaptive)
+  start tree(s): adaptive
+  random seed: 1773850615
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  stopping rule: OFF
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  FreeRate optimization method: AUTO
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: primate-mtDNA.nex
+
+ERROR: Error loading MSA: cannot parse any format supported by RAxML-NG!
+Please re-run with --msa-format <FORMAT> and/or --log debug to get more information.
+
+
