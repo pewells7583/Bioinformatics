@@ -1,0 +1,116 @@
+
+RAxML-NG v. 2.0.0-dev released on 11.03.2026 by The Exelixis Lab.
+Developed by: Oleksiy M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth,
+              Julia Haag, Anastasis Togkousidis, Julius Wiegert, Christoph Stelz.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Apple M1 Max, 10 cores, 32 GB RAM
+
+RAxML-NG was called at 09-Apr-2026 12:25:20 as follows:
+
+raxml-ng --msa metazoa_alignment.gene.fasta --model GTR+G --prefix metazoa_gene_out
+
+Analysis options:
+  run mode: ML tree search (adaptive)
+  start tree(s): adaptive
+  random seed: 1775751920
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  stopping rule: OFF
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  FreeRate optimization method: AUTO
+  SIMD kernels: SSE3
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: metazoa_alignment.gene.fasta
+[00:00:00] Loaded alignment with 22 taxa and 4700 sites
+
+Alignment comprises 1 partitions and 4098 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 4700 / 4098
+Gaps: 39.42 %
+Invariant sites: 14.98 %
+
+
+[00:00:00] Adaptive mode: Predicting difficulty of the MSA ...
+[00:00:00] Parallel parsimony: 24 trees with 10 threads
+[00:00:00] Predicted difficulty: 0.15
+
+NOTE: Binary MSA file created: metazoa_gene_out.raxml.rba
+
+[00:00:00] Generating 1 random starting tree(s) with 22 taxa
+[00:00:00] Generating 5 parsimony starting tree(s) with 22 taxa
+Parallelization scheme: 3 worker(s) x 3 thread(s)
+
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 1366 / 21856
+[00:00:00] Data distribution: max. searches per worker: 2
+
+Starting ML tree search with 6 distinct starting trees
+
+[00:00:00 -68135.683713] Heuristic: adaptive, stopping rules: off, epsilon = 10.000000
+[00:00:00 -68135.683713] Initial branch length optimization
+[00:00:00 -62327.943818] Model parameter optimization (eps = 10.000000)
+[00:00:00 -61199.748757] FAST spr round 1 (radius: 18)
+[00:00:01 -60173.510511] FAST spr round 2 (radius: 18)
+[00:00:02 -60154.791347] FAST spr round 3 (radius: 18)
+[00:00:02 -60150.596393] Model parameter optimization (eps = 3.000000)
+[00:00:02 -60131.748770] SLOW spr round 1 (radius: 6)
+[00:00:03] [worker #2] ML tree search #3, logLikelihood: -60122.080901
+[00:00:04 -60121.621288] SLOW spr round 2 (radius: 6)
+[00:00:04] [worker #1] ML tree search #2, logLikelihood: -60122.035825
+[00:00:06 -60121.581769] SLOW spr round 3 (radius: 12)
+[00:00:06 -60121.579622] Model parameter optimization (eps = 0.100000)
+
+[00:00:06] [worker #0] ML tree search #1, logLikelihood: -60120.622525
+
+[00:00:06 -64890.609592] Heuristic: adaptive, stopping rules: off, epsilon = 10.000000
+[00:00:06 -64890.609592] Initial branch length optimization
+[00:00:06 -61118.533701] Model parameter optimization (eps = 10.000000)
+[00:00:07 -60243.324973] FAST spr round 1 (radius: 18)
+[00:00:08 -60154.015403] FAST spr round 2 (radius: 18)
+[00:00:08 -60135.724448] FAST spr round 3 (radius: 18)
+[00:00:09 -60130.668145] Model parameter optimization (eps = 3.000000)
+[00:00:09] [worker #1] ML tree search #5, logLikelihood: -60122.076338
+[00:00:09 -60126.494596] SLOW spr round 1 (radius: 6)
+[00:00:10] [worker #2] ML tree search #6, logLikelihood: -60120.587252
+[00:00:11 -60121.014683] SLOW spr round 2 (radius: 12)
+[00:00:11 -60120.963247] Model parameter optimization (eps = 0.100000)
+
+[00:00:11] [worker #0] ML tree search #4, logLikelihood: -60120.603194
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.588664 (ML),  weights&rates: (0.250000,0.050779) (0.250000,0.305912) (0.250000,0.875423) (0.250000,2.767886) 
+   Base frequencies (ML): 0.283589 0.241495 0.268005 0.206911 
+   Substitution rates (ML): 2.331570 3.187518 1.425293 1.621913 5.185890 1.000000 
+
+
+Final LogLikelihood: -60120.587252
+
+AIC score: 120341.174504 / AICc score: 120342.271514 / BIC score: 120663.940393
+Free parameters (model + branch lengths): 50
+
+Best ML tree saved to: /Users/peytonwells/Desktop/Midterm2/metazoa_gene_out.raxml.bestTree
+All ML trees saved to: /Users/peytonwells/Desktop/Midterm2/metazoa_gene_out.raxml.mlTrees
+Optimized model saved to: /Users/peytonwells/Desktop/Midterm2/metazoa_gene_out.raxml.bestModel
+
+Execution log saved to: /Users/peytonwells/Desktop/Midterm2/metazoa_gene_out.raxml.log
+
+Analysis started: 09-Apr-2026 12:25:20 / finished: 09-Apr-2026 12:25:31
+
+Elapsed time: 11.708 seconds
+
